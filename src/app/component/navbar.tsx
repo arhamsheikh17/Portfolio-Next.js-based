@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link';
 import Image from 'next/image';
-
+import pic from '../../../public/assests/picture/logo.png';
 import { MdOutlineFileDownload } from "react-icons/md";
 
 const Navbar = () => {
@@ -10,7 +10,7 @@ const Navbar = () => {
     <header className="text-gray-600 body-font">
   <div className="container mx-auto flex flex-wrap p-2 bg-gray-80 flex-col md:flex-row items-center">
     <a className="flex title-font font-medium items-center text-blue-600 mb-4 md:mb-0">
-      <Image src={require("../../../public/assests/picture/logo.png")} alt="Portfolio" 
+      <Image src={pic} alt="Portfolio" 
        width={100}
         height={100}
         className='w-[50px]'

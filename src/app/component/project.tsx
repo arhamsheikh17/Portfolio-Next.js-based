@@ -1,7 +1,11 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-
+import pic0 from '../../../public/assests/picture/ama.jpg';
+import pic1 from '../../../public/assests/picture/nmp.png';
+import pic2 from '../../../public/assests/picture/tac.jpg';
+import pic3 from '../../../public/assets/picture/pic.jpg';
+import pic4 from '../../../public/assests/picture/portfolio.jpg';
 const Project = () => {
   return (
     <div id='Project'>
@@ -30,7 +34,7 @@ const Project = () => {
           <Image
             alt="gallery"
             className="absolute inset-0 w-full h-full object-cover object-center"
-            src= {require("../../../public/assests/picture/ama.JPG")}
+            src= {pic0}
             width={600}
             height={360}
           />
@@ -62,7 +66,7 @@ const Project = () => {
           <Image
             alt="gallery"
             className="absolute inset-0 w-full h-full object-cover object-center"
-            src={require("../../../public/assests/picture/nmp.png")}
+            src={pic1}
             width={601}
             height={361}
           />
@@ -90,7 +94,7 @@ const Project = () => {
           <Image
             alt="gallery"
             className="absolute inset-0 w-full h-full object-cover object-center"
-            src={require("../../../public/assests/picture/tac.JPG")}
+            src={pic2}
             width={603}
             height={363}
           />
@@ -120,7 +124,7 @@ const Project = () => {
           <Image
             alt="gallery"
             className="absolute inset-0 w-full h-full object-cover object-center"
-            src={require("../../../public/assests/picture/rps.JPG")}
+            src={pic3}
             width={601}
             height={361}
           />
@@ -149,7 +153,7 @@ const Project = () => {
           <Image
             alt="gallery"
             className="absolute inset-0 w-full h-full object-cover object-center border border-black  "
-            src= {require("../../../public/assests/picture/portfolio.JPG")}
+            src= {pic4}
             width={600}
             height={360}
           />

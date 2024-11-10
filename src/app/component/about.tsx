@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-
+import picab from '../../../public/assests/picture/pic.jpg';
 const About = () => {
   return (
     <div id="About">
@@ -13,7 +13,7 @@ const About = () => {
         alt="hero"
         width={400}
         height={250}
-        src={require("../../../public/assests/picture/pic.jpg")}
+        src={picab}
       />
     </div>
     <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">

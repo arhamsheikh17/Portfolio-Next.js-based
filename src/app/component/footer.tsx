@@ -4,13 +4,16 @@ import { BsFacebook } from "react-icons/bs";
 import { RiInstagramFill } from "react-icons/ri";
 import { FaLinkedin } from "react-icons/fa6";
 import Image from 'next/image';
+import picf from '../../../public/assests/picture/logo.png';
+
+
 const Footer = () => {
   return (
     <div className='bg-blue-50'>
       <footer className="text-gray-600 body-font">
     <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
       <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-      <Image src={require("../../../public/assests/picture/logo.png")} alt="Portfolio" 
+      <Image src={picf} alt="Portfolio" 
        width={100}
         height={100}
         className='w-[50px]'

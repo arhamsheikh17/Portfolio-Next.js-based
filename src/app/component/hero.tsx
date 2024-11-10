@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-
+import pic from '../../../public/assets/picture/pic.jpg';
 
 const Hero = () => {
   return (
@@ -30,7 +30,7 @@ const Hero = () => {
           alt="hero"
           width={500}
           height={500}
-          src={require("../../../public/assests/picture/pic.jpg")}
+          src={pic}
         />
       </div>
     </div>
